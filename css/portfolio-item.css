@@ -34,5 +34,4 @@ a.noLink:after,
 a.noLink:visited,
 a.noLink:focus {
     text-decoration: none;
-    color: #000;
 }
