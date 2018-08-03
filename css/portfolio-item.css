@@ -26,6 +26,10 @@ footer {
     background-color: red;
 }
 
+.nav > li > a.revyoome:hover {
+    background-color: red;
+}
+
 p{
     font-size: medium;
 }
