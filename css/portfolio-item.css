@@ -30,6 +30,10 @@ footer {
     background-color: darkslategrey;
 }
 
+.nav > li > a.adknown:hover {
+    background-color: #2f65ca;
+}
+
 p{
     font-size: medium;
 }
