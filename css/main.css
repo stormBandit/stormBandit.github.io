@@ -138,8 +138,8 @@ a.youtube:active {
   background: linear-gradient(#C4301A, #C4302B);
 }
 
-/* Facebook */
-a.facebook {
+/* LinkedIn */
+a.linkedin {
   background: #4669ab;
   background: linear-gradient(#4669ab, #304886);
   border-top: 1px solid #8ea4cd;
@@ -147,7 +147,7 @@ a.facebook {
   text-shadow: 0 1px 1px rgba(255,255,255,.35);
 }
 
-a.facebook:active {
+a.linkedin:active {
   background: #304886;
   background: linear-gradient(#304886, #4669ab);
 }
