@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+<head>
+    <!-- Mobile Specific Meta -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Favicon-->
+    <link rel="shortcut icon" href="img/fav.png">
+    <!-- Author Meta -->
+    <meta name="author" content="Dalton Polhill">
+    <!-- Meta Description -->
+    <meta name="description" content="">
+    <!-- Meta Keyword -->
+    <meta name="keywords" content="">
+    <!-- meta character set -->
+    <meta charset="UTF-8">
+    <!-- Site Title -->
+    <title>Dalton Polhill - Revyoome</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,400,300,500,600,700" rel="stylesheet"> 
+    <!-- ========== CSS ========== -->
+    <link rel="stylesheet" href="css/linearicons.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/brands.min.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">			
+    <link rel="stylesheet" href="css/nice-select.css">							
+    <link rel="stylesheet" href="css/animate.min.css">
+    <link rel="stylesheet" href="css/owl.carousel.css">			
+    <link rel="stylesheet" href="css/jquery-ui.css">			
+    <link rel="stylesheet" href="css/main.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- ========== /CSS ========== -->
+    
+    <!-- include script for html-includes-->
+    <script src="js/w3.js"></script>
+
+</head>
+<body>
+    <!--include the header with navigation bar-->
+    <div w3-include-html="header.html"></div> 
+    <script> w3.includeHTML(); </script>
+
+    <!-- start banner Area -->
+    <section class="coop-banner">
+        <div class="row justify-content-center">
+            <div class="about-content coop-content col-lg-12">
+                <div class="row justify-content-center">
+                    <div id="logo">
+                        <a href="revyoome.html"><img src="img/revyoome.png" alt="" title="" /></a>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="container main-menu">
+                        <div class="row align-items-center justify-content-center d-flex">
+                            <nav id="nav-menu-container">
+                                <ul class="nav-menu revyoome-menu">
+                                    <li><a href="#revyoome_about">About</a></li>
+                                    <li><a href="#revyoome_job_description_S18">Job Description</a></li>
+                                    <li><a href="#revyoome_goals_S18">Work Term Goals (S18)</a></li>
+                                    <li><a href="#revyoome_conclusion_S18">Conclusion (S18)</a></li>
+                                </ul>
+                                <ul class="nav-menu revyoome-menu" style="float: right">
+                                    <li><a href="#revyoome_goals_S19">Work Term Goals (S19)</a></li>
+                                    <li><a href="#revyoome_conclusion_S19">Conclusion (S19)</a></li>
+                                </ul>
+                            </nav><!-- #nav-menu-container -->		    		
+                        </div>
+                    </div>
+                </div>
+            </div>	
+        </div>
+    </section>
+    <!-- End banner Area -->
+
+    <!-- Disclaimer Section -->
+    <section id="revyoome_disclaimer" class="sml-section-gap">
+        <div class="container">
+            <div class="row justify-content-center">
+                <h3>*I spent 2 work terms at Revyoome (S18 and S19) so this page includes a report for each term*</h3>
+            </div>
+        </div>
+    </section>
+    <!-- End Disclaimer Section -->
+
+    <!-- About Section -->
+    <section id="revyoome_about" class="sml-section-gap">
+        <div class="container">
+            <div class="row justify-content-center">
+                <h1>About Revyoome</h1>
+                <p>
+                    Revyoome is a startup company developing an iOS and Android application for bringing the online world of reviewing information into the ever booming social media industry. As the company is still early in its stages of growth and much of the content we worked on is private, there is not much that I can disclose about the actual product of the company. However, I can speak about my experience during this unique opportunity. As a third-year university student I could never have imagined myself being placed in a management position to lead a team of developers to build a mobile application from the ground up.
+                    <br><br>
+                    My role at Revyoome was to manage a small team of developers and to oversee the development, quality management and testing of the software as well as contribute to the design of the application. As a team, we built an entire cloud-based backend infrastructure to a mobile application using Amazon Web Services (AWS). I built a <a href="https://www.phacility.com/phabricator/">Phabricator</a> instance on an <a href="https://aws.amazon.com/ec2/">AWS EC2</a> instance to host our project management and code review software. We used phabricator to enforce organization on the project, help with task workflow and have a well-established form of communication throughout the project.
+                    <br><br>
+                    I was directly involved in designing, implementing and continuously improving a data model and MySQL database schema for the project. The data model continually got more complex, adding new functionality to the app meant adding new components to the backend database.
+                    <br><br>
+                    I was also responsible for performing code reviews on a regular basis while managing a development and beta environment. Both environments consisted of their own set of databases, cloud-based serverless functions (AWS LAmbda) as well as their own set of users (<a href="https://aws.amazon.com/cognito/">Amazon Cognito</a>).
+                    <br><br>
+                    I created a local working environment for the developers on the project to allow local machine development without causing disruptions to other developers. I set up a Docker container for a local database and used <a href="https://docs.aws.amazon.com/lambda/latest/dg/serverless_app.html">AWS SAM (Serverless Application Model)</a> to build and test their backend functions locally.
+                    <br><br>
+                    It was an incredible journey and has been a priceless learning experience for me. I was faced with many challenges during this project and feel that I learned far more than I have during any of my past experiences. I also feel that I developed my skill as a leader and grew as a person, bringing me closer to my professional goals.
+                </p>
+            </div>
+        </div>
+    </section>
+    <!-- End About Section -->
+
+    <!-- Job Description Section -->
+    <section id="revyoome_job_description" class="section-gap">
+        <div class="container">
+            <div class="row justify-content-center">
+                <h1>Job Description</h1>
+                <p>
+                    <strong>Official Title:</strong> Project Manager and Senior Technical Leader
+                    <br><br>
+                    <strong>Description:</strong> <br>
+                    Revyoome is a brand new startup (2018) interested in developing a new video-based social media application for both Android and iOS mobile platforms. With the project just starting, there was a group of 5 employees acting as both the development and design team. We are looking for a brilliant developer(s) with strong Apple iOS Swift experience who have a passion for mobile and enjoy developing in a fast-paced, innovative environment. As an iOS developer at revyoo.me, you'll be able to get in on the ground floor of an innovative mobile video technology company. 
+                    <br><br>
+                    <strong>Expectations:</strong><br>
+                    * Implement new features in the revyoo.me mobile app<br>
+                    * Work in a small team environment and ship code<br>
+                    * Contribute ideas and participate in design and planning discussions<br>
+                    * Contribute to everything from low-level networking and parsing, to application logic, to UI implementation 
+                    <br><br>
+                    <strong>Experience We Like:</strong><br>
+                    * Strong knowledge of iOS and experience with Swift<br>
+                    * Prior involvement in implementing a feature from specification to completion<br>
+                    * Real-world mobile development experience (through work or personal projects) 
+                </p>
+            </div>
+        </div>
+    </section>
+    <!-- End Job Description Section -->
+
+    <!-- Goal One Modal -->
+    <div class="modal fade goal-modal" id="S18_goal_one_modal" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3 class="modal-title">Goal #1 - Continue to Develop Communication Skills</h3>
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+                <div class="modal-body">
+                    <h4>Goal:</h4>
+                    <p>
+                        A big part about working in a team to build a new app is communication, the value of communication is high when developing something that has never been done before. I want to be able to improve my written and oral communication skills throughout this work term.
+                    </p>
+                    <h4>Action Plan:</h4>
+                    <p>
+                        I have implemented a scrum methodology with my team and will be doing a standup meeting with them every single workday. Also, I will be using Slack as a communication tool, and Phabricator to develop plans and scrum boards to be used for further communications with the team. I also plan to keep a running log of wiki's on how to complete certain tasks for future onboarding.
+                    </p>
+                    <h4>Measure of Success:</h4>
+                    <p>
+                        I would think that a good measure of success for this goal would be the success of the project, but a more obscure way of telling that I am meeting this goal is to have my team members communicating openly with myself. If I am doing a good job communicating with my team then I should know when there are issues arising within the project, and not be surprised by them popping up out of the blue.
+                    </p>
+                    <h4>Reflection:</h4>
+                    <p>
+                        I feel that I have kept up with the daily scrum, and weekly sprint planning meetings well and done a good job communicating with my team when there is a problem. I also feel that I have been able to make myself available to my team as often as possible when they are in need of assistance.
+                    </p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Goal Two Modal -->
+    <div class="modal fade goal-modal" id="S18_goal_two_modal" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3 class="modal-title">Goal #2 - Comprehending Large Stacks and Learning New Languages</h3>
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+                <div class="modal-body">
+                    <h4>Goal:</h4>
+                    <p>
+                        Within the project, we are using many different tools such as Android Studio, XCode and AWS and languages like Java and Swift. There are a lot of tasks that must be completed in this project that I have no experience with. So my goal is to widen my knowledge and learn a breadth of knowledge about these various tools and languages.
+                    </p>
+                    <h4>Action Plan:</h4>
+                    <p>
+                        My plan to accomplish this goal is to try and use the tools as much as possible to immerse myself in them and get plenty of practice. I plan to do a lot of reading of the documentation of these tools and playing around with there different implementations and use cases.
+                    </p>
+                    <h4>Measure of Success:</h4>
+                    <p>
+                        If I am able to make significant contributions to a working product at the end of my term then I will have learned at least a fair amount about these tools and languages.
+                    </p>
+                    <h4>Reflection:</h4>
+                    <p>
+                        I have spent a lot of time coding in both Android Studio and Xcode over the past few months, and feel that based on my knowledge from before this term and now, I have learned a lot. I feel that my skills with Xcode and Swift have become significantly better, as well as the amount of enjoyment I get out of coding for iOS applications has increased significantly.
+                    </p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Goal Three Modal -->
+    <div class="modal fade goal-modal" id="S18_goal_three_modal" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3 class="modal-title">Goal #3 - Improving my Leadership and Teamwork Skills</h3>
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+                <div class="modal-body">
+                    <h4>Goal:</h4>
+                    <p>
+                        During this Co-op term, I am in the most leadership position I have ever been in for a software project, and that makes me want to be a good leader. I will strive to be a good leader, mentor and ethical teammate for this project.
+                    </p>
+                    <h4>Action Plan:</h4>
+                    <p>
+                        I plan to be as open as I can with my team and use their strengths to the benefit of the team while being supportive of their weaknesses. I want to see my team grow and evolve in their work and be able to complete tasks without too much stress and with as much help from me as possible.
+                    </p>
+                    <h4>Measure of Success:</h4>
+                    <p>
+                        One way to measure this goal would be to ask for feedback from my team about how my leadership was during the term and to ask my manager how he thought I did as a mentor as well.
+                    </p>
+                    <h4>Reflection:</h4>
+                    <p>
+                        I have asked for feedback from my team as well as my manager and formulated a plan for myself to improve even further on these team management skills. The feedback that I received was quite positive and I was overwhelmed to hear that my team believed that I was a well-suited leader. I am determined to continue my growth as a leader.
+                    </p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Goals Section -->
+    <section id="revyoome_goals_S18" class="goals-area section-gap">
+        <div class="container">
+            <div class="row d-flex justify-content-center">
+                <h1>Work Term Goals (S18)</h1>
+            </div>					
+            <div class="row">
+                <div class="col-lg-4 col-md-6 single-goal">
+                    <div class="top-part">
+                        <h2 class="package-no">01</h2>
+                        <h4>Continue to Develop Communication Skills</h4>
+                    </div>
+                    <div class="package-list">
+                        <ul>
+                            <li>Oral communication during scrum meetings</li>
+                            <li>Written communication on project management tools</li>
+                            <li>Learning to write well commented code</li>
+                        </ul>
+                    </div>
+                    <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#S18_goal_one_modal">Read More...</button>
+                </div>
+                <div class="col-lg-4 col-md-6 single-goal">
+                    <div class="top-part">
+                        <h2 class="package-no">02</h2>
+                        <h4>Comprehending Large Stacks and Learning New Languages</h4>
+                    </div>
+                    <div class="package-list">
+                        <ul>
+                            <li>Learning to read a new language (Swift, Node.js)</li>
+                            <li>Reading other developers' code</li>
+                            <li>Using various tools/languages to accomplish tasks</li>
+                        </ul>
+                    </div>
+                    <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#S18_goal_two_modal">Read More...</button>
+                </div>
+                <div class="col-lg-4 col-md-6 single-goal">
+                    <div class="top-part">
+                        <h2 class="package-no">03</h2>
+                        <h4>Improving my Leadership and Teamwork Skills</h4>
+                    </div>
+                    <div class="package-list">
+                        <ul>
+                            <li>Practicing using version control within a team environment</li>
+                            <li>Learning to lead a team through difficult tasks</li>
+                            <li>Improving my ability to help other developers</li>
+                        </ul>
+                    </div>
+                    <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#S18_goal_three_modal">Read More...</button>
+                </div>
+            </div>
+        </div>	
+    </section>
+    <!-- End Goals Section -->
+
+    <!-- Conclusion Section -->
+    <section id="revyoome_conclusion_S18" class="conclusion-area section-gap">
+        <div class="container">
+            <div class="row justify-content-center">
+                <h1>Conclusion (S18)</h1>
+                <p>
+                    Few people can say that they were the first employee hired for any company, I was hired as the senior technical lead and the product manager. Although these were my official titles, oftentimes in a startup environment the roles we take on tend to blend into many other roles. 
+                    <br><br>
+                    Some days I acted entirely as the companies database administrator, spending my time researching better ways to design our quickly growing data model, and how to increase the efficiency of our MySQL queries. I spent an entire day with an outside consultant planning and designing the use cases of our data model before ever beginning to build up our database. I learned that it is a huge advantage to plan out as many possible use cases before ever starting to develop a database schema and to try and anticipate various modifications that may come down the line. The time it takes to plan this out is minimal compared to the time it takes to rework your entire database design because of a new feature the client asks for. There were a few times throughout the term where I had to rework the schema to accompany a new feature, and many of these cases could have been avoided if I had done more searching for best practices in the first stages of design. One of the most valuable lessons I learned while working with the database for Revyoome was that no matter what I was trying to accomplish, my first solution to the problem was almost always less efficient than some other solution. Five minutes on StackOverflow was often all it took to find a better solution or to learn a new tool that is built into the MySQL engine. We decided to use Amazon RDS to host our database because of its flexible, scalable and overall ease of use. No set up of servers or maintenance on our end meant more time for developing! 
+                    <br><br>
+                    Many of my days were spent as the project manager, performing code reviews, testing completed user stories and merging tasks into the development environment. I constructed a Phabricator project, running on an Amazon EC2 instance, for project management purposes. Phabricator is a great tool for managing task creation and tracking and has built-in Git support, which is crucial to be able to perform code reviews without compromising the main development branch. A major lesson I learned during my work term is the importance of using version control software properly. It is important to always have a branch dedicated to working code, to always have a place to branch off from to start a new task and more importantly to have a demonstrable product at all times. Nothing is more frustrating than trying to demo to the client (or in this case the CEO) and have a bug on the current branch. 
+                    <br><br>
+                    I was given the unique opportunity to manage the entire project of Revyoome, which meant that I was in charge of the user story creation and assignment for both the Android and iOS side of the development team. I also did my fair share of development for both sides of the mobile application, which was very rewarding in that I now have experience in both Swift and Java for mobile development. A major piece of the application that I contributed to both the Android and iOS side was the sign-up, sign-in, and sign-out process. I used Amazon Cognito to authenticate users to be given access to our serverless backend. 
+                    <br><br>
+                    Speaking of the backend, one of my largest responsibilities was the design and development of our entire backend, including our Amazon API Gateway which featured all of the endpoints to our backend serverless Amazon Lambda functions. We used NodeJS to write our backend code because of its asynchronous abilities and because I wanted to get to know this language due to its growing popularity. At first, there were a lot of issues with how the code ran asynchronously, but once I got the hang of using Promises, it became a very powerful and efficient tool.
+                    <br><br>
+                    I was given an incredible learning opportunity at Revyoome, a chance to expand my knowledge exponentially and get a feel for being a leader within the industry. I was exposed to the unique atmosphere of the first days of a startup before any infrastructure was in place whatsoever. This was one of the most unique opportunities a coop student in my position could ask for, and I am very grateful. 
+                    <br><br>
+                    One major advantage I gained from the position I held at Revyoome is the immense amount of exposure I got to various technologies. I was placed in charge of many important parts of the project which gave me the opportunity to learn about many things I wouldn't have in other positions, such as web server setups serverless backend construction for mobile applications and especially managing a project. 
+                    <br><br>
+                    I had some very amazing learning experiences and would absolutely recommend working for a startup such as this if you enjoy a challenging and rewarding workplace.
+                </p>
+            </div>
+        </div>        
+    </section>
+    <!-- End Conclusion Section -->
+
+    <!-- S19 REPORT BELOW -->
+
+    <!-- Goal One Modal -->
+    <div class="modal fade goal-modal" id="S18_goal_one_modal" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3 class="modal-title">Goal #1 - Continue to Develop Communication Skills</h3>
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+                <div class="modal-body">
+                    <h4>Goal:</h4>
+                    <p>
+                        I have come to realize that communication within the team is one of the most important things during a software project. There are many reasons for this, but most important is that when the communication breaks down in a team deadlines are missed and often the project becomes much harder to accomplish. This is why I will strive to make the communication on this team as valuable and constructive as possible                    </p>
+                    <h4>Action Plan:</h4>
+                    <p>
+                        I have implemented a scrum methodology with my team and will be doing a standup meeting with them every single workday. Also, I will be using Slack as a communication tool, and Phabricator to develop plans and scrum boards to be used for further communications with the team. I also plan to keep a running log of wiki's on how to complete certain tasks for future onboarding.
+                    </p>
+                    <h4>Measure of Success:</h4>
+                    <p>
+                        I would think that a good measure of success for this goal would be the success of the project, but a more obscure way of telling that I am meeting this goal is to have my team members communicating openly with myself. If I am doing a good job communicating with my team then I should know when there are issues arising within the project, and not be surprised by them popping up out of the blue.
+                    </p>
+                    <h4>Reflection:</h4>
+                    <p>
+                        I believe that this semester was even better than my previous one where I led the team. I think the daily scrums were used much more effectively to bring up various issues the team had encountered. The weekly meetings were more potent with important information and helped bring out a lot of bugs, feature requests from both developers and the client
+                    </p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Goal Two Modal -->
+    <div class="modal fade goal-modal" id="S18_goal_two_modal" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3 class="modal-title">Goal #2 - Technical Literacy and Ability</h3>
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+                <div class="modal-body">
+                    <h4>Goal:</h4>
+                    <p>
+                        As we move forward with the project there are more complex systems we need to build which will require the use of new AWS services, tools, and languages. It is my goal this term to improve my technical literacy in the various tools and to become proficient in the mobile application languages we are using as well as increase my knowledge of our backend infrastructure.
+                    </p>
+                    <h4>Action Plan:</h4>
+                    <p>
+                        My plan to accomplish this goal is to try and use the tools as much as possible to immerse myself in them and get plenty of practice. I plan to do a lot of reading of the documentation of these tools and playing around with there different implementations and use cases.
+                    </p>
+                    <h4>Measure of Success:</h4>
+                    <p>
+                        If I am able to make significant contributions to a working product at the end of my term then I will have learned at least a fair amount about these tools and languages.
+                    </p>
+                    <h4>Reflection:</h4>
+                    <p>
+                        The work I have done this semester has exposed me to a lot more services offered by AWS and the use cases we have at Revyoome are quite complex. This means that the exposure I had to the services/tools we use is vast and has given me an immense amount of knowledge about the various systems throughout our backend.
+                    </p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Goal Three Modal -->
+    <div class="modal fade goal-modal" id="S18_goal_three_modal" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3 class="modal-title">Goal #3 - Improving my Leadership and Teamwork Skills</h3>
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+                <div class="modal-body">
+                    <h4>Goal:</h4>
+                    <p>
+                        During this Co-op term, I am in the most leadership position I have ever been in for a software project, and that makes me want to be a good leader. I will strive to be a good leader, mentor and ethical teammate for this project.
+                    </p>
+                    <h4>Action Plan:</h4>
+                    <p>
+                        I plan to be as open as I can with my team and use their strengths to the benefit of the team while being supportive of their weaknesses. I want to see my team grow and evolve in their work and be able to complete tasks without too much stress and with as much help from me as possible.
+                    </p>
+                    <h4>Measure of Success:</h4>
+                    <p>
+                        One way to measure this goal would be to ask for feedback from my team about how my leadership was during the term and to ask my manager how he thought I did as a mentor as well.
+                    </p>
+                    <h4>Reflection:</h4>
+                    <p>
+                        I truly believe this was an excellent goal for myself to put forth during my last coop term of university. This gave me the opportunity to explore the ethics and morals of being a team lead, which made me realize how important it can be to treat your underling with respect. Keeping this goal in mind during the term helped me to notice the type of environment that was unfolding in our team and how my behaviour impacted this environment. I feel as though the way I treated the team during the term cultivated a very positive and efficient atmosphere, leading to a very successful term.
+                    </p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Goals Section -->
+    <section id="revyoome_goals_S19" class="goals-area section-gap">
+        <div class="container">
+            <div class="row d-flex justify-content-center">
+                <h1>Work Term Goals (S19)</h1>
+            </div>					
+            <div class="row">
+                <div class="col-lg-4 col-md-6 single-goal">
+                    <div class="top-part">
+                        <h2 class="package-no">01</h2>
+                        <h4>Continue to Develop Communication Skills</h4>
+                    </div>
+                    <div class="package-list">
+                        <ul>
+                            <li>Oral communication during scrum meetings</li>
+                            <li>Written communication on project management tools</li>
+                            <li>Learning to write well commented code</li>
+                        </ul>
+                    </div>
+                    <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#S18_goal_one_modal">Read More...</button>
+                </div>
+                <div class="col-lg-4 col-md-6 single-goal">
+                    <div class="top-part">
+                        <h2 class="package-no">02</h2>
+                        <h4>Technical Literacy and Ability</h4>
+                    </div>
+                    <div class="package-list">
+                        <ul>
+                            <li>Mastering the mobile frameworks we are using</li>
+                            <li>Understanding the best ways to design our backend infrastructure</li>
+                            <li>Using various AWS tools to accomplish complex tasks</li>
+                        </ul>
+                    </div>
+                    <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#S18_goal_two_modal">Read More...</button>
+                </div>
+                <div class="col-lg-4 col-md-6 single-goal">
+                    <div class="top-part">
+                        <h2 class="package-no">03</h2>
+                        <h4>Improving my Leadership and Teamwork Skills</h4>
+                    </div>
+                    <div class="package-list">
+                        <ul>
+                            <li>Practicing using version control within a team environment</li>
+                            <li>Learning to lead a team through difficult tasks</li>
+                            <li>Improving my ability to help other developers</li>
+                        </ul>
+                    </div>
+                    <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#S18_goal_three_modal">Read More...</button>
+                </div>
+            </div>
+        </div>	
+    </section>
+    <!-- End Goals Section -->
+
+    <!-- Conclusion Section -->
+    <section id="revyoome_conclusion_S19" class="conclusion-area section-gap">
+        <div class="container">
+            <div class="row justify-content-center">
+                <h1>Conclusion (S19)</h1>
+                <p>
+                    I was given an incredible learning opportunity at Revyoome, a chance to expand my knowledge exponentially and get a feel for being a leader within the industry. I was exposed to the unique atmosphere of the first days of a startup before any infrastructure was in place whatsoever. This was one of the most unique opportunities a coop student in my position could ask for, and I am very grateful. 
+                    <br><br>
+                    One major advantage I gained from the position I held at Revyoome is the immense amount of exposure I got to various technologies. I was placed in charge of many important parts of the project which gave me the opportunity to learn about many things I wouldn't have in other positions, such as web server setups serverless backend construction for mobile applications and especially managing a project. 
+                    <br><br>
+                    I had some very amazing learning experiences and would absolutely recommend working for a startup such as this if you enjoy a challenging and rewarding workplace.
+                </p>
+            </div>
+        </div>        
+    </section>
+    <!-- End Conclusion Section -->
+
+    <!--include the footer -->
+    <div w3-include-html="footer.html"></div> 
+    <script> w3.includeHTML(); </script>
+
+    <script src="js/vendor/jquery-2.2.4.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/vendor/bootstrap.min.js"></script>			
+    <script src="js/easing.min.js"></script>			
+    <script src="js/hoverIntent.js"></script>
+    <script src="js/superfish.min.js"></script>	
+    <script src="js/jquery.ajaxchimp.min.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>	
+    <script src="js/jquery.tabs.min.js"></script>						
+    <script src="js/jquery.nice-select.min.js"></script>	
+    <script src="js/isotope.pkgd.min.js"></script>			
+    <script src="js/waypoints.min.js"></script>
+    <script src="js/jquery.counterup.min.js"></script>
+    <script src="js/simple-skillbar.js"></script>							
+    <script src="js/owl.carousel.min.js"></script>							
+    <script src="js/mail-script.js"></script>	
+    <script src="js/main.js"></script>	
+</body>
+</html>

@@ -1,110 +1,87 @@
-<!DOCTYPE html>
-<html lang="en" xml:lang="en" xmlns= "http://www.w3.org/1999/xhtml">
-
-<head>
-    <meta charset="utf-8">
-    <meta name="google" content="notranslate">
-    <meta http-equiv="Content-Language" content="en">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
-
-    <title>Dalton Polhill - Co-op Workterm Reports</title>
-
-    <!-- Bootstrap Core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-
-    <!-- Custom CSS -->
-    <link href="css/portfolio-item.css" rel="stylesheet">
-
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
-
-</head>
-
-<body>
-	<!-- Navigation -->
-    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
-        <div class="container" >
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand" href="index.html">Home</a>
+<header id="header">
+    <div class="container main-menu">
+        <div class="row align-items-center justify-content-between d-flex">
+            <div id="logo">
+                <a href="index.html"><img src="img/logo.png" alt="" title="" /></a>
             </div>
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse">
-                <ul class="nav navbar-nav">
-                    <li>
-                        <a href="aboutMe.html">About Me</a>
-                    </li>
-                    <li class="dropdown">
-                        <a  class="dropdown-toggle" href="#" id="tulipRetail" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Tulip Retail
-                            <span class="caret"></span>
-                        </a>
-                        <ul class="dropdown-menu">
-                            <li> <a href="tulip_about.html">About Tulip Retail</a></li>
-                            <li> <a href="tulip_jobDescription.html">Job Description</a></li>
-                            <li> <a href="tulip_goals.html">Work Term Goals</a></li>
-                            <li> <a href="tulip_conclusion.html">Conclusion</a></li>
+            <nav id="nav-menu-container">
+                <ul class="nav-menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <!-- COOP Experiences -->
+                    <li class="menu-has-children"><a href="#">Coop Experience</a>
+                        <ul>
+                            <!-- Tulip -->
+                            <li class="menu-has-children"><a href="tulip.html">Tulip Retail (S17)</a>
+                                <ul>
+                                    <li><a href="tulip.html">About</a></li>
+                                    <li><a href="tulip.html#tulip_job_description">Job Description</a></li>
+                                    <li><a href="tulip.html#tulip_goals">Work Term Goals</a></li>
+                                    <li><a href="tulip.html#tulip_conclusion">Conclusion</a></li>
+                                </ul>
+                            </li>	
+                            <!-- Brock -->
+                            <li class="menu-has-children"><a href="brock-solutions.html">Brock Solutions (F17)</a>
+                                <ul>
+                                    <li><a href="brock-solutions.html">About</a></li>
+                                    <li><a href="brock-solutions.html#brock_job_description">Job Description</a></li>
+                                    <li><a href="brock-solutions.html#brock_goals">Work Term Goals</a></li>
+                                    <li><a href="brock-solutions.html#brock_conclusion">Conclusion</a></li>
+                                </ul>
+                            </li>
+                            <!-- Revyoome (1) -->
+                            <li class="menu-has-children"><a href="revyoome.html">Revyoome (S18)</a>
+                                <ul>
+                                    <li><a href="revyoome.html">About</a></li>
+                                    <li><a href="#">Job Description</a></li>
+                                    <li><a href="#">Work Term Goals</a></li>
+                                    <li><a href="#">Conclusion</a></li>
+                                </ul>
+                            </li>
+                            <!-- Adknown -->
+                            <li class="menu-has-children"><a href="adknown.html">Adknown (W19)</a>
+                                <ul>
+                                    <li><a href="adknown.html">About</a></li>
+                                    <li><a href="adknown.html#adknown_job_description">Job Description</a></li>
+                                    <li><a href="adknown.html#adknown_goals">Work Term Goals</a></li>
+                                    <li><a href="adknown.html#adknown_conclusion">Conclusion</a></li>
+                                </ul>
+                            </li>
+                            <!-- Revyoome (2) -->
+                            <li class="menu-has-children"><a href="">Revyoome (S19)</a>
+                                <ul>
+                                    <li><a href="#">About</a></li>
+                                    <li><a href="#">Job Description</a></li>
+                                    <li><a href="#">Work Term Goals</a></li>
+                                    <li><a href="#">Conclusion</a></li>
+                                </ul>
+                            </li>
                         </ul>
                     </li>
 
-                    <li class="dropdown">
-                        <a  class="dropdown-toggle" href="#" id="brockSolutions" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Brock Solutions
-                            <span class="caret"></span>
-                        </a>
-                        <ul class="dropdown-menu">
-                            <li> <a href="brock_about.html">About Brock Solutions</a></li>
-                            <li> <a href="brock_jobDescription.html">Job Description</a></li>
-                            <li> <a href="brock_goals.html">Work Term Goals</a></li>
-                            <li> <a href="brock_conclusion.html">Conclusion</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="portfolio.html">Portfolio</a></li>
+                    <li><a href="price.html">Pricing</a></li>
+                    <li class="menu-has-children"><a href="">Blog</a>
+                        <ul>
+                            <li><a href="blog-home.html">Blog Home</a></li>
+                            <li><a href="blog-single.html">Blog Single</a></li>
                         </ul>
-                    </li>
-
-                    <li class="dropdown">
-                        <a  class="dropdown-toggle" href="#" id="revyoome" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Revyoome
-                            <span class="caret"></span>
-                        </a>
-                        <ul class="dropdown-menu">
-                            <li> <a href="revyoome_about.html">About Revyoome</a></li>
-                            <li> <a href="revyoome_jobDescription.html">Job Description</a></li>
-                            <li> <a href="revyoome_goals.html">Work Term Goals</a></li>
-                            <li> <a href="revyoome_conclusion.html">Conclusion</a></li>
+                    </li>	
+                    <li class="menu-has-children"><a href="">Pages</a>
+                        <ul>
+                            <li><a href="elements.html">Elements</a></li>
+                            <li class="menu-has-children"><a href="">Level 2 </a>
+                                <ul>
+                                    <li><a href="#">Item One</a></li>
+                                    <li><a href="#">Item Two</a></li>
+                                </ul>
+                            </li>					                		
                         </ul>
-                    </li>
-
-                    <li class="dropdown">
-                        <a  class="dropdown-toggle" href="#" id="adknown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Adknown
-                            <span class="caret"></span>
-                        </a>
-                        <ul class="dropdown-menu">
-                            <li> <a href="adknown_about.html">About Adknown</a></li>
-                            <li> <a href="adknown_jobDescription.html">Job Description</a></li>
-                            <li> <a href="adknown_goals.html">Work Term Goals</a></li>
-                            <li> <a href="adknown_conclusion.html">Conclusion</a></li>
-                        </ul>
-                    </li>
-                 
-                    <li>
-                        <a href="acknowledgements.html">Acknowledgements</a>
-                    </li>
-                    <li>
-                        <a href="contactMe.html">Contact Me</a>
-                    </li>
+                    </li>				          					          		          
+                    <li><a href="contact.html">Contact</a></li>
                 </ul>
-            </div>
-            <!-- /.navbar-collapse -->
+            </nav><!-- #nav-menu-container -->		    		
         </div>
-        <!-- /.container -->
-    </nav>
-</body>
+    </div>
+</header><!-- #header -->
